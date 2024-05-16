@@ -20,11 +20,7 @@ function Login() {
 
   const handleSubmit = async event => {
     event.preventDefault();
-    const res = await axios.post(API_URL_LOGIN, loginState, {
-      headers: {
-        'Referer': 'unsafe-url'
-      }
-    });
+    const res = await axios.post(API_URL_LOGIN, loginState);
     if (res.status === 200) {
       const data = res.data;
       localStorage.clear();
