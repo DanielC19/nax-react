@@ -5,7 +5,7 @@ export const API_URL_SIMULATE = 'http://34.170.77.201/api/simulate/';
 
 export const API_URL_STREAK = 'http://34.170.77.201/api/streak/';
 
-export const API_URL_LOGIN = '34.170.77.201/api/login/';
+export const API_URL_LOGIN = 'http://34.170.77.201/api/login/';
 
 export const API_URL_REGISTER = 'http://34.170.77.201/api/register/';
 
